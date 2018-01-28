@@ -1,0 +1,7 @@
+*.mp4
+*.flac
+*.srt
+package-lock.json
+node_modules/*
+samples/*
+test-437d740500ca.json

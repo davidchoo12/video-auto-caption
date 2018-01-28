@@ -1,0 +1,16 @@
+{
+  "name": "video-auto-caption",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^1.0.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-record-lpcm16": "^0.3.0"
+  }
+}
