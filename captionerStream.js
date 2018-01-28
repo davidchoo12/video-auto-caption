@@ -3,12 +3,8 @@ const fs = require('fs');
 // Imports the Google Cloud client library
 const speech = require('@google-cloud/speech');
 
-const projectId = 'test-2a5ec';
-
 // Creates a client
-const client = new speech.SpeechClient({
-  projectId: projectId,
-});
+const client = new speech.SpeechClient();
 
 const encoding = 'FLAC';
 const sampleRateHertz = 16000;

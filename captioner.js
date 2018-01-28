@@ -32,13 +32,8 @@ convert(videoFileName, audioFileName, function(err){
   }
 });
 
-// Your Google Cloud Platform project ID
-const projectId = 'test-2a5ec';
-
 // Creates a client
-const client = new speech.SpeechClient({
-  projectId: projectId,
-});
+const client = new speech.SpeechClient();
 
 
 function generateSrt(vidName, audName, srtName) {
